@@ -5,7 +5,7 @@ body{
 }
 
 .calculator{
-    width: 60%;
+    width: 20%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -38,6 +38,8 @@ body{
     background-color: transparent;
     box-shadow: none;
     text-align: end;
+    outline: none;
+    font-size: large;
 }
 
 .button{
